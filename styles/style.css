@@ -34,17 +34,27 @@ cursor: pointer;
 
 .nav-list{
   display: none;
-width: 100vw;
+/* width: 100vw; */
 position: fixed;
 bottom: 10rem;
 }
 
-nav-list-box{
-width: 50rem;
+.nav-list-box{
+/* width: 50rem; */
 padding: 2rem;
 display: flex;
 justify-content: space-between;
+background-color: rgb(110, 110, 187);
+flex-wrap: wrap;
 }
 .nav-item{
 /* display: none; */
+width: 5rem;
+height: 5rem;
+list-style: none;
+}
+
+.nav-link{
+text-decoration: none;
+color: white;
 }
